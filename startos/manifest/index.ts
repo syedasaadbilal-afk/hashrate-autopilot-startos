@@ -13,7 +13,7 @@ export const manifest = setupManifest({
   volumes: ['main'],
   images: {
     autopilot: {
-      source: { dockerTag: 'ghcr.io/rdouma/hashrate-autopilot:1.17.0' },
+      source: { dockerTag: 'ghcr.io/syedasaadbilal-afk/hashrate-autopilot:1.18.0' },
       arch: ['x86_64', 'aarch64'],
     },
   },
