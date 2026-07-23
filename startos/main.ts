@@ -30,7 +30,7 @@ export const main = sdk.setupMain(async ({ effects }) => {
         NICEHASH_API_KEY: '4b7f5e08-a4ed-457a-a604-60cf501eca5e',
         NICEHASH_API_SECRET: 'b56a13d7-323f-46bd-bf35-513612904e440642dcb4-9c06-4e93-bde8-59d6f3ddb71c',
         NICEHASH_MARKET: 'EU',
-        NICEHASH_ALGORITHM: 'SHA256AsicBoost',
+        NICEHASH_ALGORITHM: 'SHA256ASICBOOST',
       },
     },
     ready: {
