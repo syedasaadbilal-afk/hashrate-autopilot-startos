@@ -1,9 +1,9 @@
 import { IMPOSSIBLE, VersionInfo } from '@start9labs/start-sdk'
 
 export const current = VersionInfo.of({
-  version: '1.18.0:4',
+  version: '1.18.4',
   releaseNotes: {
-    en_US: 'Initial StartOS packaging of upstream hashrate-autopilot 1.18.0.4',
+    en_US: 'Dual-provider NiceHash: LIVE trading + in-app keys and config.',
   },
   migrations: {
     up: async ({ effects }) => {},
